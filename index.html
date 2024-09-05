@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON To-Do List</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 400px; margin: 50px auto; }
+        ul { padding: 0; list-style-type: none; }
+        li { background: #f4f4f4; padding: 10px; margin: 5px 0; display: flex; justify-content: space-between; }
+        button { border: none; background: red; color: white; cursor: pointer; }
+    </style>
+</head>
+<body>
+
+    <h2>To-Do List</h2>
+    <input type="text" id="taskInput" placeholder="Enter a new task">
+    <button onclick="addTask()">Add Task</button>
+
+    <ul id="taskList"></ul>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
+<script src="app.js"></script>
